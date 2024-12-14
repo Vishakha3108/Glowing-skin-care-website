@@ -8,6 +8,9 @@
   <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml">
 
   <link rel="stylesheet" href="style.css">
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"/>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +24,7 @@
   <link rel="preload" as="image" href="./assets/banner-2.jpg">
   <link rel="preload" as="image" href="./assets/images/hero-banner-3.jpg">
 </head>
-<body>
+<body id="top">
     <header class="header">
 
         <div class="alert">
@@ -237,7 +240,7 @@
                     <ico-icon name="arrow-forward" aria-hidden="true"></ico-icon>
                   </a>
 
-                  <div class="has-bg-image" style="background-image: url(/assets/images/collection-1.jpg);"></div>
+                  <div class="has-bg-image" style="background-image: url(./assets/images/collection-1.jpg);"></div>
                 </div>
               </li>
 
@@ -255,7 +258,7 @@
                     <ico-icon name="arrow-forward" aria-hidden="true"></ico-icon>
                   </a>
 
-                  <div class="has-bg-image" style="background-image: url(/assets/images/collection-2.jpg);"></div>
+                  <div class="has-bg-image" style="background-image: url(./assets/images/collection-2.jpg);"></div>
                 </div>
               </li>
 
@@ -273,7 +276,7 @@
                     <ico-icon name="arrow-forward" aria-hidden="true"></ico-icon>
                   </a>
 
-                  <div class="has-bg-image" style="background-image: url(/assets/images/collection-3.jpg);"></div>
+                  <div class="has-bg-image" style="background-image: url(./assets/images/collection-3.jpg);"></div>
                 </div>
               </li>
 
@@ -1079,28 +1082,275 @@
             
             </li>
 
-          
-
-
-            </ul>
+           </ul>
 
 
             </div>
             </section>
 
 
+            <!-- ------ OFFER -----  -->
+             <section class="section offer" id="offer" aria-label="offer" data-section>
+              <div class="container">
 
+                <figure class="offer-banner">
+                  <img src="./assets/images/offer-banner-1.jpg" width="305" height="400" class="w-100" loading="lazy" alt="offer products">
 
+                  <img src="./assets/images/offer-banner-2.jpg" width="450" height="625" class="w-100" loading="lazy" alt="offer products">
+                </figure>
 
+                <div class="offer-content">
 
-      
+                  <p class="offer-subtitle">
+                    <span class="span">Special Offer</span>
 
+                    <span class="badge" aria-label="20% off">--20%</span>
+                  </p>
+
+                  <h2 class="h2-large section-title">Mountain Pine Bath oil</h2>
+
+                  <p class="section-text">Made using clean, non-toxic ingredients, our products are designed for everyone.</p>
+
+                  <div class="countdown">
+                       <span class="time" aria-label="days">15</span>
+                       <span class="time" aria-label="hours">21</span>
+                       <span class="time" aria-label="minuts">46</span>
+                       <span class="time" aria-label="seconds">08</span>
+
+                  </div>
+                   
+                  <a href="#" class="btn btn-primary">Get Only $39.00</a>
+
+                </div>
+
+              </div>
+
+             </section>
+
+             <!-- ------ BLOG ------  -->
+
+             <section class="section blog" id="blog" aria-label="blog" data-section>
+              <div class="container">
+
+                <h2 class="h2-large section-title">More to Discover</h2>
+
+                <ul class="flex-list">
+                  
+                  <li class="flex-item">
+                    <div class="blog-card">
+                      <figure class="card-banner img-holder has-before hover:shine"  style="--width: 700; --height: 450;">
+                        <img src="./assets/images/blog-1.jpg" width="700" height="450" loading="lazy" class="img-cover"  alt="Find a Store">
+                      </figure>
+
+                      <h3 class="h3">
+                        <a href="#" class="card-title">Find a Store</a>
+                      </h3> 
+
+                      <a href="#" class="btn-link">
+                        <span class="span">Our Store</span>
+
+                        <ico-icon name="arrow-forward-outline" aria-hidden="true"></ico-icon>
+                      </a>
+
+                    </div>
+
+                  </li>
+
+                  <li class="flex-item">
+                    <div class="blog-card">
+                      <figure class="card-banner img-holder has-before hover:shine"  style="--width: 700; --height: 450;">
+                        <img src="./assets/images/blog-2.jpg" width="700" height="450" loading="lazy" class="img-cover"  alt="From Our Blog">
+                      </figure>
+
+                      <h3 class="h3">
+                        <a href="#" class="card-title">From Our Blog</a>
+                      </h3> 
+
+                      <a href="#" class="btn-link">
+                        <span class="span">Our Store</span>
+
+                        <ico-icon name="arrow-forward-outline" aria-hidden="true"></ico-icon>
+                      </a>
+
+                    </div>
+
+                  </li>
+
+                  <li class="flex-item">
+                    <div class="blog-card">
+                      <figure class="card-banner img-holder has-before hover:shine"  style="--width: 700; --height: 450;">
+                        <img src="./assets/images/blog-3.jpg" width="700" height="450" loading="lazy" class="img-cover"  alt="Our Story">
+                      </figure>
+
+                      <h3 class="h3">
+                        <a href="#" class="card-title">Our Story</a>
+                      </h3> 
+
+                      <a href="#" class="btn-link">
+                        <span class="span">Our Store</span>
+
+                        <ico-icon name="arrow-forward-outline" aria-hidden="true"></ico-icon>
+                      </a>
+
+                    </div>
+
+                  </li>
+
+                </ul>
+
+              </div>
+             </section>
 
     </article>
   </main>
 
+        <!-- ------ FOOTER ------  -->
 
- 
+      <footer class="footer" data-section>
+        <div class="container">
+
+          <div class="footer-top">
+
+            <ul class="footer-list">
+
+              <li>
+                <p class="footer-list-title">Company</p>
+              </li>
+
+              <li>
+                <p class="footer-list-text">Find a location nearset you. See <a href="#">Our Stores</a></p>
+              </li>
+
+              <li>
+                <p class="footer-list-text bold">+391 (0)35 2568 4593</p>
+              </li>
+
+              <li>
+                <p class="footer-list-text">hello@domain.com</p>
+              </li>
+
+            </ul>
+
+            <ul class="footer-list">
+
+              <li>
+                <p class="footer-list-title">Useful links</p>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">New Products</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Best seller</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Bundle & Save</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Online Gift Card</a>
+              </li>
+
+            </ul>
+
+            <ul class="footer-list">
+
+              <li>
+                <p class="footer-list-title">Information</p>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Start a Return</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Contect Us</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Shipping FAQ</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Terms & Condition</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Privacy Policy</a>
+              </li>
+
+            </ul>
+
+            <div class="footer-list">
+
+              <p class="newsletters-title">Good emails.</p>
+
+              <p class="newsletter-text">
+                Enter your email below to be the first to know about new collection and product launches.
+              </p>
+
+              <form action="" class="newsletter-form">
+                <input type="email" name="email_address" placeholder="Enter your email address" class="email-field" required>
+
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+              </form>
+
+            </div>
+
+          </div>
+
+          <div class="footer-bottom">
+
+            <div class="wrapper">
+              <p class="copyright">&#169 2022 codewithsadee</p>
+
+              <ul class="social-list">
+
+                <li>
+                  <a href="#" class="social-link">
+                    <i class="ri-youtube-line"></i>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="social-link">
+                    <i class="ri-twitter-line"></i>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="social-link">
+                    <i class="ri-instagram-line"></i>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="social-link">
+                    <i class="ri-facebook-circle-line"></i>
+                  </a>
+                </li>
+
+              </ul>
+            </div>
+
+            <a href="#" class="logo">
+              <img src="./assets/images/logo (1).png" width="179" height="26" loading="lazy" alt="Glowing">
+            </a>
+
+            <img src="./assets/images/pay (1).png" width="313" height="28" class="w-100" alt="available all payment method">
+
+          </div>
+
+        </div>
+      </footer>
+
+      <!-- ------BACK TO TOP -----  -->
+       <a href="#" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+        <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+       </a>
+
 
 
 
